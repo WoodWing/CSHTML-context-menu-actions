@@ -5,7 +5,7 @@ Add Serverside scripts to Context Menu Actions for CS-HTML
    to CS10 ContextActions
    
    
-#Installation
+# Installation
 
 create a folder ``<contentstation>/integrations``
 
@@ -26,7 +26,7 @@ add the line to the ``contentStation`` part of the arrayscript in the integratio
 ```
 
 
-#Add menu actions from wwsettings   
+# Add menu actions from wwsettings   
    The old defintion for CS9 is located in wwsettings.xml, in the ObjectContextMenuActions section.
    the lines from that section can be converted to this defintion by making some small changes.
    
@@ -77,14 +77,14 @@ where :
    - {OBJECT_IDS}	will be replaced with a comma seperated string of objectIDS
    - {DOSSIER_ID}	will be replaced with the active dossier, only available in dossier context
 
-#Testing
+# Testing
 the changes to config.js will be loaded dynamically. So refresh the contentStation web-page.
 
 Then select an object that matches your menu definitions and press right-mouse-button to pop-up the action menu.
 
 You defined menu entries should now be visable and you can select them.
 
-#disclaimer
+# Disclaimer
 This `ObjectContextMenuActions` script is intended to make an easy migration from CS9 to CS10/html.
 
 The scripts being called on the server should still be installed and tested as seperate functionality. This readme does not explain how these scripts can be build.
